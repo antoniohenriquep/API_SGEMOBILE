@@ -1,3 +1,3 @@
 const dataBaseUsername = 'antoniohp'
-const dataBasePassword = 'a@842133'
+const dataBasePassword = ''
 export {dataBaseUsername, dataBasePassword}
