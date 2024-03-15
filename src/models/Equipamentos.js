@@ -1,4 +1,5 @@
-const User = sequelize.define('User', {
+const sequelize = require('sequelize')
+const Equipamento = sequelize.define('Equipamento', {
   // Model attributes are defined here
   descricao: {
     type: DataTypes.STRING,
