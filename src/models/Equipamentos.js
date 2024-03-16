@@ -16,8 +16,6 @@ const Equipamento = sequelize.define('Equipamento', {
   }
 
 }, {
-  // Other model options go here
+
 });
 
-// `sequelize.define` also returns the model
-console.log(User === sequelize.models.User); // true

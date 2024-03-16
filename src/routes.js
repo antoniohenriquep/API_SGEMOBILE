@@ -3,6 +3,9 @@ import { RootController } from "./controllers/root/RootController";
 
 const router = Router()
 
-router.get('/', new RootController().handle)
+router.get('/equipamentos?status=backup')
+router.get('/equipamentos/:patrimonio')
+
+router.put('/conjunto/:id')
 
 export {router}
