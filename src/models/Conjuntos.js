@@ -1,5 +1,5 @@
-const sequelize = require('sequelize')
-const {DataTypes} = require('sequelize')
+import { DataTypes } from "sequelize";
+import {sequelize} from '../database'
 
 const Conjunto = sequelize.define('Conjunto', {
   // Model attributes are defined here
@@ -18,4 +18,4 @@ const Conjunto = sequelize.define('Conjunto', {
 
 });
 
-module.exports = Conjunto
+export {Conjunto}

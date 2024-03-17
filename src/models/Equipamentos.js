@@ -1,5 +1,6 @@
-const sequelize = require('sequelize')
-const {DataTypes} = require('sequelize')
+import { DataTypes } from "sequelize";
+import {sequelize} from '../database'
+
 const Equipamento = sequelize.define('Equipamento', {
   // Model attributes are defined here
   descricao: {
@@ -24,5 +25,5 @@ const Equipamento = sequelize.define('Equipamento', {
 
 });
 
-module.exports = Equipamento
+export {Equipamento}
 
